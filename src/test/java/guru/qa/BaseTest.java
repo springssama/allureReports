@@ -14,7 +14,7 @@ public class BaseTest {
     public String BASE_URL = "https://github.com/";
     public String REPOSITORY_NAME = "springssama/allureReports";
     public String ADDITIONAL_REPO_NAME = "eroshenkoam/allure-example";
-    public Integer ISSUE_NUMBER = 68;
+    public String ISSUE_NUMBER = "#68";
 
     @BeforeAll
     static void beforeAll() {

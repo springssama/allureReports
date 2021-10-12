@@ -27,7 +27,7 @@ public class AdditionalLambdaTest extends BaseTest {
             $(partialLinkText("Issues")).click();
         });
         step("Проверить наличие issue с номером " + ISSUE_NUMBER, () -> {
-            $(withText("68")).should(Condition.exist);
+            $(withText(ISSUE_NUMBER)).should(Condition.exist);
         });
 
 
